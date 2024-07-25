@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人网页</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .skills, .projects {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .skill, .project {
+            flex: 1 1 45%;
+            margin: 10px;
+            padding: 10px;
+            background-color: #e0e0e0;
+            border-radius: 5px;
+        }
+        .contact {
+            text-align: center;
+        }
+        .contact a {
+            color: #333;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>个人简介</h1>
+        <div class="section">
+            <p>你好！我是吕宇婷，一名经验丰富的软件开发工程师，专注于前端和后端开发，热衷于学习新技术并将其应用于实际项目中。</p>
+        </div>
+        
+        <h2>技能</h2>
+        <div class="section skills">
+            <div class="skill">HTML/CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">Python</div>
+            <div class="skill">React</div>
+            <div class="skill">Node.js</div>
+        </div>
+        
+        <h2>项目经验</h2>
+        <div class="section projects">
+            <div class="project">
+                <h3>项目 A</h3>
+                <p>项目 A 是一个基于 React 和 Node.js 的全栈应用，旨在帮助用户管理他们的任务和日程。</p>
+            </div>
+            <div class="project">
+                <h3>项目 B</h3>
+                <p>项目 B 是一个数据分析平台，使用 Python 和 Pandas 进行数据处理，并生成可视化报告。</p>
+            </div>
+        </div>
+        
+        <h2>联系方式</h2>
+        <div class="section contact">
+            <p>你可以通过以下方式联系我：</p>
+            <p>
+                <a href="mailto:zhangsan@example.com">Email</a> |
+                <a href="https://www.linkedin.com/in/zhangsan">LinkedIn</a> |
+                <a href="https://github.com/zhangsan">GitHub</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
